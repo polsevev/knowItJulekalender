@@ -13,5 +13,3 @@ checkStuff (x:xs)
     | otherwise = x: checkStuff xs
 
 findNumberOfPackages = length ([0,1,2,3,4,5,6] ++ checkStuff [7..5433000])
-
-findT = length ([0,1,2,3,4,5,6] ++ checkStuff [7..10000])
